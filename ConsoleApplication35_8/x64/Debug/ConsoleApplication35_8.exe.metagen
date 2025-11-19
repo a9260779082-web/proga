@@ -1,0 +1,49 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ConsoleApplication35_8, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Product: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(System.String, Double, Double, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Category 'get set' : 
+    Double DiscountPercent 'get set' : 
+    Double Price 'get set' : 
+    System.String Name 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Name(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Price(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Price(Double): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DiscountPercent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DiscountPercent(Double): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Category(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Category(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetDiscountedPrice(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Food: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Product
+    Void .ctor(System.String, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Electronics: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Product
+    Void .ctor(System.String, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Clothing: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Product
+    Void .ctor(System.String, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProductItem: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Product, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Kolichestvo 'get set' : 
+    Product ItemProduct 'get set' : 
+  Methods:
+    get_ItemProduct(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemProduct(Product): PrivateScope, Public, HideBySig, SpecialName
+    get_Kolichestvo(): PrivateScope, Public, HideBySig, SpecialName
+    set_Kolichestvo(Int32): PrivateScope, Public, HideBySig, SpecialName
+    GetTotalPrice(): PrivateScope, Public, HideBySig

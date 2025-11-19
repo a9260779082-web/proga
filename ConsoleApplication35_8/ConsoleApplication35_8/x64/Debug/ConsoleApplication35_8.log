@@ -1,0 +1,24 @@
+﻿  ConsoleApplication35_8.cpp
+C:\Users\a9260\Desktop\прога сдать\ConsoleApplication35_8\ConsoleApplication35_8\ConsoleApplication35_8.cpp(166,43): warning C5307: 'System::String::String(wchar_t,int)': argument (1) converted from 'char' to 'wchar_t'. Missing 'L' encoding-prefix for character literal?
+  (компиляция исходного файла "/ConsoleApplication35_8.cpp")
+  
+C:\Users\a9260\Desktop\прога сдать\ConsoleApplication35_8\ConsoleApplication35_8\ConsoleApplication35_8.cpp(168,36): warning C5307: 'System::String::String(wchar_t,int)': argument (1) converted from 'char' to 'wchar_t'. Missing 'L' encoding-prefix for character literal?
+  (компиляция исходного файла "/ConsoleApplication35_8.cpp")
+  
+C:\Users\a9260\Desktop\прога сдать\ConsoleApplication35_8\ConsoleApplication35_8\ConsoleApplication35_8.cpp(190,40): warning C5307: 'System::String::String(wchar_t,int)': argument (1) converted from 'char' to 'wchar_t'. Missing 'L' encoding-prefix for character literal?
+  (компиляция исходного файла "/ConsoleApplication35_8.cpp")
+  
+C:\Users\a9260\Desktop\прога сдать\ConsoleApplication35_8\ConsoleApplication35_8\ConsoleApplication35_8.cpp(193,40): warning C5307: 'System::String::String(wchar_t,int)': argument (1) converted from 'char' to 'wchar_t'. Missing 'L' encoding-prefix for character literal?
+  (компиляция исходного файла "/ConsoleApplication35_8.cpp")
+  
+C:\Users\a9260\Desktop\прога сдать\ConsoleApplication35_8\ConsoleApplication35_8\ConsoleApplication35_8.cpp(226,40): warning C5307: 'System::String::String(wchar_t,int)': argument (1) converted from 'char' to 'wchar_t'. Missing 'L' encoding-prefix for character literal?
+  (компиляция исходного файла "/ConsoleApplication35_8.cpp")
+  
+C:\Users\a9260\Desktop\прога сдать\ConsoleApplication35_8\ConsoleApplication35_8\ConsoleApplication35_8.cpp(231,36): warning C5307: 'System::String::String(wchar_t,int)': argument (1) converted from 'char' to 'wchar_t'. Missing 'L' encoding-prefix for character literal?
+  (компиляция исходного файла "/ConsoleApplication35_8.cpp")
+  
+C:\Users\a9260\Desktop\прога сдать\ConsoleApplication35_8\ConsoleApplication35_8\ConsoleApplication35_8.cpp(233,36): warning C5307: 'System::String::String(wchar_t,int)': argument (1) converted from 'char' to 'wchar_t'. Missing 'L' encoding-prefix for character literal?
+  (компиляция исходного файла "/ConsoleApplication35_8.cpp")
+  
+  AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  ConsoleApplication35_8.vcxproj -> C:\Users\a9260\Desktop\прога сдать\ConsoleApplication35_8\x64\Debug\ConsoleApplication35_8.exe
